@@ -1,0 +1,17 @@
+
+entity AssetType {
+	name String required maxlength(50),
+    description String maxlength(255),
+    isActive Boolean required,
+    createdBy String required maxlength(50),
+    createdDate Instant required,
+    lastModifiedBy String maxlength(50)
+    lastModifiedDate Instant
+}
+
+paginate AssetType with pagination
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+service all with serviceImpl
