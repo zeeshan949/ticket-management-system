@@ -1,0 +1,30 @@
+{
+  "ticketSystemApp": {
+    "assetType": {
+      "home": {
+        "title": "Asset Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Asset Type",
+        "createOrEditLabel": "Create or edit a Asset Type",
+        "notFound": "No Asset Types found"
+      },
+      "created": "A new Asset Type is created with identifier {{ param }}",
+      "updated": "A Asset Type is updated with identifier {{ param }}",
+      "deleted": "A Asset Type is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Asset Type {{ id }}?"
+      },
+      "detail": {
+        "title": "Asset Type"
+      },
+      "id": "ID",
+      "name": "Name",
+      "description": "Description",
+      "isActive": "Is Active",
+      "createdBy": "Created By",
+      "createdDate": "Created Date",
+      "lastModifiedBy": "Last Modified By",
+      "lastModifiedDate": "Last Modified Date"
+    }
+  }
+}
